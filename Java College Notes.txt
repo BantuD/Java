@@ -1,0 +1,1 @@
+* Whene you declare a varible in masterclass it should be static if you want to access it from static void main fun'c
