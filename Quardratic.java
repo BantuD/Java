@@ -11,8 +11,9 @@ public class Quardratic
     a=sc.nextInt();
     b=sc.nextInt();
     c=sc.nextInt();
-    root1= (-b-Math.sqrt(b*b-4*a*c))/(2*a);
-    root2= (-b+Math.sqrt(b*b-4*a*c))/(2*a);
+    temp=-Math.sqrt(b*b-4*a*c);
+    root1= (-b-temp)/(2*a);
+    root2= (-b+temp)/(2*a);
     System.out.println("Root 1 is: "+root1);
     System.out.println("Root 2 is: "+root2);
   }
